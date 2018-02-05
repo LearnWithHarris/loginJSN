@@ -1,6 +1,4 @@
 'use strict';
-const bcrypt = require('bcryptjs')
-const saltRounds = 10;
 
 module.exports = (sequelize, DataTypes) => {
   var User = sequelize.define('User', {
